@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+    padding-top: 20%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.greenText {
+    color: rgb(34, 174, 34);
+}
+
+#generateBtn {
+    background-color: rgb(34, 174, 34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1em;
+}
+
+#generateBtn:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#passwordExample {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    border: 1px solid white;
+    width: 25rem;
+    border-radius: 20px;
+}
