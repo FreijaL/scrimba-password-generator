@@ -5,12 +5,20 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let generateBtn = document.getElementById('generateBtn');
 let passwordExample = document.getElementById('passwordExample');
+let randomCharacter = [];
 
 
-generateBtn.addEventListener('click', function() {
-    for ( let i = 0; i < characters.length; i++ ) {
-        let randomCharacter = Math.floor( Math.random() * characters.length);
-        console.log(characters[randomCharacter])
-        while ( )
-    }
-});
+function random() {
+    generateBtn.addEventListener('click', function() {
+        for ( let i = 0; i < 12; i++ ) {
+            randomCharacter = Math.floor( Math.random() * characters.length);
+            passwordExample.textContent += characters[randomCharacter];
+        }
+    });
+};
+
+function click() {
+    if ()
+}
+
+         

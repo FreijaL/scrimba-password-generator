@@ -40,5 +40,6 @@ main {
     margin-top: 5rem;
     border: 1px solid white;
     width: 25rem;
+    height: 2rem;
     border-radius: 20px;
 }
