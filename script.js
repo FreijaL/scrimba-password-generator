@@ -8,17 +8,15 @@ let passwordExample = document.getElementById('passwordExample');
 let randomCharacter = [];
 
 
-function random() {
-    generateBtn.addEventListener('click', function() {
-        for ( let i = 0; i < 12; i++ ) {
-            randomCharacter = Math.floor( Math.random() * characters.length);
-            passwordExample.textContent += characters[randomCharacter];
-        }
-    });
-};
 
-function click() {
-    if ()
-}
+generateBtn.addEventListener('click', function() {
+        passwordExample.innerHTML = '';
+    for ( let i = 0; i < 12; i++ ) {
+        randomCharacter = Math.floor( Math.random() * characters.length);
+        passwordExample.textContent += characters[randomCharacter];
+    }
+});
+
+
 
          
